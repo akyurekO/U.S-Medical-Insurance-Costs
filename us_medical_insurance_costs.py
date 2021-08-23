@@ -123,7 +123,7 @@ class Info:
                           "Smoker": self.smoker, "Region": self.region, "Insurance_costs": self.insurance_costs}
         return insurance_dict
 
-
+    
 
 info = Info(age_data, sex_data, children_data, region_data, insurance_cost, bmi_data, smoker_data)
 

@@ -12,7 +12,6 @@ with open("insurance.csv", "r+") as insurance_file:
     region_data = []
     insurance_cost = []
     
-
     for row in insurance_data:
         age_data.append(row["age"])
         sex_data.append(row["sex"])
@@ -22,7 +21,7 @@ with open("insurance.csv", "r+") as insurance_file:
         region_data.append(row["region"])
         insurance_cost.append(row["charges"])
 
-
+        
 class Info:
 
     def __init__(self, age, sex, num_of_children, region, insurance_costs, bmi, smoker):
